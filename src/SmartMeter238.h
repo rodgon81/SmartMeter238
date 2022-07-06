@@ -43,7 +43,7 @@ SOFTWARE.
 
 #ifdef SM_USE_REMOTE_DEBUG
 
-#include <RemoteDebug.h>   // https://github.com/JoaoLopesF/RemoteDebug
+//#include <RemoteDebug.h>   // https://github.com/JoaoLopesF/RemoteDebug
 
 #define SM_PRINT_V(x, ...) \
     if (this->smDebug.isActive(this->smDebug.VERBOSE)) this->smDebug.print(x, ##__VA_ARGS__)
